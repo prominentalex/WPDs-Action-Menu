@@ -19,8 +19,7 @@ if (dayz_combat == 1) then {
 	sleep 6;
 	
 	_object = "TT650_Civ" createVehicle (position player);
-	_object setVariable ["ObjectID", "1", true];
-	_object setVariable ["ObjectUID", "1", true];
+	_object setVariable ["MalSar",1,true];
 	
 	_object attachto [player,[0.0,3.0,2.5]];
 	_object setfuel 0.5;
